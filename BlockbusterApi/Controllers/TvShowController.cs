@@ -27,5 +27,15 @@ namespace BlockbusterApi.Controllers
             _context.SaveChanges();
             return Ok(tvShow);
         }
+
+        [HttpPut("UpdateTvShow")]
+        public IActionResult UpdateTvShow(int id, CreateTvShowDto tvShowDto)
+        {
+            var oldTvShow = _context.TvShows.FirstOrDefault(tvShow => tvShow.Id == id);
+            if (oldTvShow == null) return NotFound();
+            _mapper.Map(tvShowDto, oldTvShow);
+            _context.SaveChanges();
+            return Ok(tvShowDto);
+        }
     }
 }
