@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|c:\\workspace\\estudo\\.net\\blockbusterapi\\blockbusterapi\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|solutionrelative:blockbusterapi\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|c:\\workspace\\estudo\\.net\\blockbusterapi\\blockbusterapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|solutionrelative:blockbusterapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|c:\\workspace\\estudo\\.net\\blockbusterapi\\blockbusterapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|solutionrelative:blockbusterapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|c:\\workspace\\estudo\\.net\\blockbusterapi\\blockbusterapi\\controllers\\blockbustercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801DD1CA-9E75-4188-A21D-E8EE379881B5}|BlockbusterApi\\BlockbusterApi.csproj|solutionrelative:blockbusterapi\\controllers\\blockbustercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 276,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlockbusterController.cs",
+              "DocumentMoniker": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\BlockbusterController.cs",
+              "RelativeDocumentMoniker": "BlockbusterApi\\Controllers\\BlockbusterController.cs",
+              "ToolTip": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\BlockbusterController.cs",
+              "RelativeToolTip": "BlockbusterApi\\Controllers\\BlockbusterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:30:22.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TvShowController.cs",
+              "DocumentMoniker": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\TvShowController.cs",
+              "RelativeDocumentMoniker": "BlockbusterApi\\Controllers\\TvShowController.cs",
+              "ToolTip": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\TvShowController.cs",
+              "RelativeToolTip": "BlockbusterApi\\Controllers\\TvShowController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:23:41.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "BlockbusterApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "BlockbusterApi\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:23:31.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "BlockbusterApi\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\workspace\\Estudo\\.net\\BlockbusterApi\\BlockbusterApi\\Controllers\\GameController.cs",
+              "RelativeToolTip": "BlockbusterApi\\Controllers\\GameController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:23:21.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
