@@ -27,5 +27,29 @@ namespace BlockbusterApi.Controllers
             _context.SaveChanges();
             return Ok(movie);
         }
+
+        [HttpGet("GetAllMovies")]
+        public IEnumerable<Movie> GetAllMovies()
+        {
+            return _context.Movies;
+        }
+
+        [HttpGet("GetMovieById {id}")]
+        public IActionResult GetMovieById(int id)
+        {
+            var movie = _context.Movies.FirstOrDefault(x => x.Id == id);
+            if (movie == null) return NotFound();
+            return Ok(movie);
+        }
+
+        [HttpPut("UpdateMovie")]
+        public IActionResult UpdateMovie(int id, CreateMovieDto movieDto)
+        {
+            var oldMovie = _context.Movies.FirstOrDefault(movie => movie.Id == id);
+            if (oldMovie == null) return NotFound();
+            _mapper.Map(movieDto, oldMovie);
+            _context.SaveChanges();
+            return Ok(movieDto);
+        }
     }
 }

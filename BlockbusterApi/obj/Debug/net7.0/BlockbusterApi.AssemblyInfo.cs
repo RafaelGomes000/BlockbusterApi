@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockbusterApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+864dba6da54875d087d3923fab723d6d921c9e3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf6ca61e6b899447063afdf2eba4f155eb26ff99")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockbusterApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockbusterApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -28,6 +28,20 @@ namespace BlockbusterApi.Controllers
             return Ok(tvShow);
         }
 
+        [HttpGet("GetAllTvShows")]
+        public IEnumerable<TvShow> GetAllTvShows()
+        {
+            return _context.TvShows;
+        }
+
+        [HttpGet("GetTvShowById {id}")]
+        public IActionResult GetTvShowById(int id)
+        {
+            var tvshow = _context.TvShows.FirstOrDefault(x => x.Id == id);
+            if(tvshow == null) return NotFound();
+            return Ok(tvshow);
+        }
+
         [HttpPut("UpdateTvShow")]
         public IActionResult UpdateTvShow(int id, CreateTvShowDto tvShowDto)
         {
