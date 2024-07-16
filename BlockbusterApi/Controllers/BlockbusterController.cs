@@ -3,6 +3,7 @@ using BlockbusterApi.Data;
 using BlockbusterApi.Data.Dtos;
 using BlockbusterApi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace BlockbusterApi.Controllers
 {
@@ -19,6 +20,22 @@ namespace BlockbusterApi.Controllers
             _mapper = mapper;
         }
 
-        //create method to show all items in the DB
+        [HttpGet("TvShowCatalogue")]
+        public IEnumerable<TvShow> GetAllTvShows()
+        {
+            return _context.TvShows;
+        }
+
+        [HttpGet("GameCatalogue")]
+        public IEnumerable<Game> GetAllGames()
+        {
+            return _context.Games;
+        }
+
+        [HttpGet("MovieCatalogue")]
+        public IEnumerable<Movie> GetAllMovies()
+        {
+            return _context.Movies;
+        }
     }
 }
