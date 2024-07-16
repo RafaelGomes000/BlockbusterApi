@@ -21,20 +21,26 @@ namespace BlockbusterApi.Controllers
         }
 
         [HttpGet("TvShowCatalogue")]
+        [ProducesResponseType(typeof(IEnumerable<TvShow>), 200)]
         public IEnumerable<TvShow> GetAllTvShows()
         {
+            if (!ModelState.IsValid) return (IEnumerable<TvShow>)BadRequest(ModelState);
             return _context.TvShows;
         }
 
         [HttpGet("GameCatalogue")]
+        [ProducesResponseType(typeof(IEnumerable<Game>), 200)]
         public IEnumerable<Game> GetAllGames()
         {
+            if (!ModelState.IsValid) return (IEnumerable<Game>)BadRequest(ModelState);
             return _context.Games;
         }
 
         [HttpGet("MovieCatalogue")]
+        [ProducesResponseType(typeof(IEnumerable<Movie>), 200)]
         public IEnumerable<Movie> GetAllMovies()
         {
+            if (!ModelState.IsValid) return (IEnumerable<Movie>)BadRequest(ModelState);
             return _context.Movies;
         }
     }
